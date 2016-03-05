@@ -1,5 +1,6 @@
 /*
  * free for use for everybody without any restrictions  - no special licens selected
+ * use at your own risk
  */
 package strickmuster;
 
