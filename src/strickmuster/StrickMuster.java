@@ -1,5 +1,5 @@
 /*
- * free for use for everybody without any restrictions 
+ * free for use for everybody without any restrictions  - no special licens selected
  */
 package strickmuster;
 
