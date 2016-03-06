@@ -21,56 +21,50 @@ import java.util.Scanner;
  */
 public class StrickMuster {
 
-    public static void main(String... aArgs) throws IOException {
-        StrickMuster parser = new StrickMuster("/home/andi/test.txt");
-        parser.processLineByLine();
-        log("Done.");
+  public static void main(String... aArgs) throws IOException {
+    StrickMuster parser = new StrickMuster("src/strickmuster.txt");
+    parser.processLineByLine();
+    log("Done.");
+  }
+  
+  /**
+   Constructor.
+   @param aFileName full name of an existing, readable file.
+  */
+  public StrickMuster(String aFileName){
+    fFilePath = Paths.get(aFileName);
+  }
+  
+  
+  /** Template method that calls {@link #processLine(String)}.  */
+  public final void processLineByLine() throws IOException {
+    try (Scanner scanner =  new Scanner(fFilePath, ENCODING.name())){
+      while (scanner.hasNextLine()){
+        String myLine = processLine(scanner.nextLine());
+        System.out.println(myLine);
+      }      
     }
-
-    /**
-     * Constructor.
-     *
-     * @param aFileName full name of an existing, readable file.
-     */
-    public StrickMuster(String aFileName) {
-        fFilePath = Paths.get(aFileName);
-    }
-
-    /**
-     * Template method that calls {@link #processLine(String)}.
-     */
-    public final void processLineByLine() throws IOException {
-        try (Scanner scanner = new Scanner(fFilePath, ENCODING.name())) {
-            while (scanner.hasNextLine()) {
-                String myLine = processLine(scanner.nextLine());
-                System.out.println(myLine);
-            }
-        }
-    }
-
-    /**
-     * Overridable method for processing lines in different ways.
-     *
-     * <P>
-     * This simple default implementation expects simple name-value pairs,
-     * separated by an '=' sign. Examples of valid input:
-     * <tt>height = 167cm</tt>
-     * <tt>mass = 65kg</tt>
-     * <tt>disposition = "grumpy"</tt>
-     * <tt>this is the name = this is the value</tt>
-     */
-    protected String processLine(String aLine) {
-        //use a second Scanner to parse the content of each line 
-        char[] linearray = new char[70];
-
-        Scanner scanner = new Scanner(aLine);
-        scanner.useDelimiter(" ");
-        if (scanner.hasNext()) {
-            //assumes the line has a certain structure
-            String name = scanner.next();
-            //check if new line
-            int row = getIntFromString(name, "\\.");
-            if (row != 0) {
+  }
+  
+  /** 
+   Overridable method for processing lines in different ways.
+    
+  
+     * @param aLine
+     * @return 
+  */
+  protected String processLine(String aLine){
+    //use a second Scanner to parse the content of each line 
+    char [] linearray = new char[70];   
+   
+    Scanner scanner = new Scanner(aLine);
+    scanner.useDelimiter(" ");
+    if (scanner.hasNext()){
+      //assumes the line has a certain structure
+      String name = scanner.next();
+      //check if new line
+      int row = getIntFromString(name,"\\.");
+      if (row != 0) {
           //System.out.println();
                 // check if Masche xMli orxMre
                 int linecount = 0;
@@ -81,9 +75,9 @@ public class StrickMuster {
                         //now we have Maschen
                         Boolean links = isValueInString(masche, "M", "li");
 
-                        for (int i = 0; i < anzMaschen; i++) {
-                            if (row % 2 == 0) {
-                                if (links) {
+                  for (int i=0;i<anzMaschen;i++) {
+                      if (row%2 == 0) {
+                         if (links) {
                                     linearray[linecount + 5] = ' ';
                                 } else {
                                     linearray[linecount + 5] = 'X';
