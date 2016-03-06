@@ -21,7 +21,7 @@ import java.util.Scanner;
 public class StrickMuster {
 
   public static void main(String... aArgs) throws IOException {
-    StrickMuster parser = new StrickMuster("/home/andi/test.txt");
+    StrickMuster parser = new StrickMuster("src/strickmuster.txt");
     parser.processLineByLine();
     log("Done.");
   }
@@ -48,12 +48,9 @@ public class StrickMuster {
   /** 
    Overridable method for processing lines in different ways.
     
-   <P>This simple default implementation expects simple name-value pairs, separated by an 
-   '=' sign. Examples of valid input: 
-   <tt>height = 167cm</tt>
-   <tt>mass =  65kg</tt>
-   <tt>disposition =  "grumpy"</tt>
-   <tt>this is the name = this is the value</tt>
+  
+     * @param aLine
+     * @return 
   */
   protected String processLine(String aLine){
     //use a second Scanner to parse the content of each line 
