@@ -1,0 +1,22 @@
+MA 62 mit N. 4
+1.R RückR RM 5Mli 2Mre 3Mli 3Mre 3Mli 3Mre 3Mli 9Mre 1Mli 5Mre 1Mli 1Mre 1Mli 1Mre 5Mli 2Mre 3Mli 3Mre 3Mli 3Mre RM
+2.R RM 2Mli 1Mre 3Mli 1Mre 1Mli 1Mre 3Mli 1Mre 5Mli 1Mre 3Mli 1Mre 5Mli 1Mre 8Mli 1Mre 3Mli 1Mre 1Mli 1Mre 3Mli 1Mre 1Mli 1Mre 3Mli 1Mre 5Mli 1Mre RM
+3.R RM 1Mli 5Mre 1Mli 3Mre 1Mli 1Mre 1Mli 3Mre 1Mli 5Mre 1Mli 8Mre 1Mli 5Mre 1Mli 4Mre 1Mli 8Mre 1Mli 1Mre 1Mli 3Mre 1Mli 2Mre RM
+4.R RM 2Mli 1Mre 3Mli 1Mre 1Mli 1Mre 7Mli 1Mre 5Mli 1Mre 5Mli 1Mre 8Mli 1Mre 5Mli 1Mre 3Mli 1Mre 1Mli 1Mre 3Mli 1Mre 5Mli 1Mre RM
+5.R RM 3Mli 3Mre 1Mli 3Mre 1Mli 1Mre 1Mli 3Mre 1Mli 2Mre 4Mli 8Mre 1Mli 1Mre 5Mli 6Mre 1Mli 3Mre 4Mli 2Mre 3Mli 3Mre RM
+6.R RM 2Mli 1Mre 3Mli 1Mre 1Mli 1Mre 3Mli 1Mre 1Mli 1Mre 7Mli 1Mre 2Mli 1Mre 2Mli 1Mre 8Mli 1Mre 3Mli 1Mre 1Mli 1Mre 3Mli 1Mre 1Mli 1Mre 3Mli 1Mre 5Mli 1Mre RM
+7.R RM 1Mli 5Mre 1Mli 3Mre 1Mli 1Mre 1Mli 3Mre 1Mli 1Mre 1Mli 3Mre 1Mli 1Mre 3Mli 1Mre 1Mli 2Mre 1Mli 3Mre 1Mli 1Mre 1Mli 7Mre 1Mli 1Mre 1Mli 3Mre 1Mli 1Mre 1Mli 3Mre 1Mli 2Mre RM
+8.R RM 1Mre 1Mli 1Mre 3Mli 1Mre 1Mli 1Mre 3Mli 1Mre 1Mli 1Mre 3Mli 1Mre 3Mli 2Mre 4Mli 1Mre 1Mli 1Mre 2Mli 1Mre 1Mli 1Mre 1Mli 1Mre 3Mli 1Mre 1Mli 1Mre 3Mli 1Mre 1Mli 1Mre 3Mli 1Mre 5Mli 1Mre RM
+9.R RM 5Mli 2Mre 3Mli 3Mre 3Mli 3Mre 3Mli 2Mre 3Mli 3Mre 2Mli 5Mre 1Mli 4Mre 3Mli 3Mre 3Mli 3Mre 3Mli 2Mre 1Mli RM
+10.R RM 62Mli RM
+11.R RM 62Mre RM
+12.R RM 7Mli 3Mre 3Mli 3Mre 2Mli 1Mre 5Mli 1Mre 2Mli 3Mre 2Mli 1Mre 13Mli 1Mre 1Mli 1Mre 5Mli 1Mre 4Mli 1Mre RM
+13.R RM 1Mli 3Mre 2Mli 5Mre 1Mli 1Mre 1Mli 13Mre 1Mli 1Mre 1Mli 3Mre 1Mli 7Mre 1Mli 1Mre 1Mli 3Mre 1Mli 1Mre 1Mli 3Mre 1Mli 6Mre RM
+14.R RM 6Mli 1Mre 3Mli 1Mre 1Mli 1Mre 5Mli 1Mre 7Mli 1Mre 5Mli 1Mre 12Mli 1Mre 2Mli 1Mre 5Mli 1Mre 1Mli 1Mre 2Mli 1Mre RM
+15.R RM 1Mli 2Mre 1Mli 1Mre 1Mli 5Mre 1Mli 2Mre 1Mli 12Mre 1Mli 5Mre 1Mli 7Mre 1Mli 5Mre 1Mli 1Mre 1Mli 3Mre 1Mli 6Mre RM
+16.R RM 7Mli 3Mre 2Mli 4Mre 2Mli 5Mre 4Mli 2Mre 3Mli 5Mre 7Mli 1Mre 3Mli 5Mre 1Mli 1Mre 1Mli 1Mre 2Mli 1Mre RM
+17.R RM 1Mli 1Mre 1Mli 2Mre 1Mli 2Mre 1Mli 2Mre 1Mli 4Mre 1Mli 7Mre 1Mli 2Mre 1Mli 5Mre 1Mli 4Mre 1Mli 2Mre 1Mli 1Mre 1Mli 3Mre 1Mli 1Mre 1Mli 3Mre 1Mli 6Mre RM
+18.R RM 6Mli 1Mre 3Mli 1Mre 1Mli 1Mre 3Mli 1Mre 1Mli 1Mre 1Mli 1Mre 5Mli 1Mre 5Mli 1Mre 1Mli 1Mre 3Mli 3Mre 2Mli 1Mre 4Mli 1Mre 1Mli 1Mre 3Mli 1Mre 2Mli 1Mre 1Mli 1Mre RM
+19.R RM 2Mli 3Mre 1Mli 4Mre 2Mli 5Mre 1Mli 1Mre 1Mli 1Mre 1Mli 4Mre 2Mli 1Mre 1Mli 3Mre 1Mli 6Mre 2Mli 1Mre 1Mli 3Mre 1Mli 1Mre 1Mli 3Mre 1Mli 1Mre 1Mli 4Mre RM
+20.R RM 4Mli 1Mre 2Mli 3Mre 3Mli 3Mre 2Mli 1Mre 8Mli 3Mre 2Mli 1Mre 5Mli 3Mre 1Mli 5Mre 1Mli 1Mre 5Mli 1Mre 4Mli 1Mre RM
+21.R alle M abk.
