@@ -96,12 +96,12 @@ public class StrickMuster {
                 }
             }
 
-      //String value = scanner.next();
-            //log("Name is : " + quote(name.trim()) + ", and Value is : " + quote(value.trim()));
-        } else {
-            log("Empty or invalid line. Unable to process.");
-        }
-        return String.copyValueOf(linearray);
+ 
+    }
+    else {
+      log("Empty or invalid line. Unable to process.");
+    }
+    return String.copyValueOf(linearray);
     }
 
     // PRIVATE 
